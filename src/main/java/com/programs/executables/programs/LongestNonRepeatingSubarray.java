@@ -1,11 +1,13 @@
 package com.programs.executables.programs;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class LongestNonRepeatingSubarray {
     public static void main(String args[]){
-        getLongestNonRepeatingSubarrayImprovised("bpfbhmipx");
+        System.out.println(getLongestNonRepeatingSubarrayImprovised("geeksforgeeks"));
     }
 
     private static int getLongestNonRepeatingSubarrayImprovised(String s) {
