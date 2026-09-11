@@ -14,7 +14,6 @@ public class MinPlatforms {
     }
 
     private static int minPlatformBest(int[] arr, int[] dep) {
-        int minDifference = dep[0] - arr[0];
         int maxTime = dep[0];
         for(int i = 0; i < arr.length; i++){
             maxTime = Math.max(dep[i], maxTime);
