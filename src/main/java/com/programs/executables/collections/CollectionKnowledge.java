@@ -46,6 +46,8 @@ public class CollectionKnowledge {
 
     private static void wordFrequencyCounter(String text) {
         Map<String, Long> countMap = Arrays.stream(text.split(" ")).collect(Collectors.groupingBy(word -> word, Collectors.counting()));
+//        Arrays.stream(text.split(" ")).sorted(Comparator.naturalOrder());
+//        Arrays.stream(text.split(" ")).sorted(Comparator.comparing(e -> e));
     }
 
     private static void convertToSetAndFilterEven(List<Integer> numbers) {
